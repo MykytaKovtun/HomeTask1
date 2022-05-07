@@ -1,3 +1,369 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  width: 1440px;
+  height: 4102px;
+  background: #fefefe;
+}
+.header {
+  height: 116px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.logo {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27.1472px;
+  line-height: 33px;
+  color: #000000;
+}
+.logo1 {
+  width: 120px;
+  height: 34px;
+  top: 42px;
+  left: 120px;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400, Regular;
+  font-size: 27.1472px;
+  line-height: 33px;
+  color: #000000;
+}
+.menu {
+  color: #000000;
+  margin-left: 435px;
+  width: 645px;
+  height: 20px;
+}
+.item1 {
+  position: absolute;
+  width: 45px;
+  height: 20px;
+  left: 675px;
+  top: 49px;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+.item2 {
+  position: absolute;
+  width: 97px;
+  height: 20px;
+  left: 780px;
+  top: 49px;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+.item3 {
+  position: absolute;
+  width: 55px;
+  height: 20px;
+  left: 937px;
+  top: 49px;
 
-
-
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+.item4 {
+  position: absolute;
+  width: 53px;
+  height: 20px;
+  left: 1052px;
+  top: 49px;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+.item5 {
+  position: absolute;
+  width: 34px;
+  height: 20px;
+  left: 1165px;
+  top: 49px;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+.item6 {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 1259px;
+  top: 49px;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+.headline {
+  position: absolute;
+  width: 1372px;
+  height: 608px;
+  left: 68px;
+  top: 116px;
+  margin: 0 auto;
+}
+.digital_product {
+  position: absolute;
+  width: 471px;
+  height: 265px;
+  left: 52px;
+  margin-top: 155px;
+  display: grid;
+  align-content: flex-start;
+}
+.h {
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+.inform {
+  margin-top: 40px;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #565656;
+}
+.button1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  position: absolute;
+  width: 215px;
+  height: 65px;
+  left: 0px;
+  margin-top: 190px;
+  background: #2639ed;
+  border-radius: 60px;
+  z-index: 2;
+}
+.contact {
+  position: static;
+  width: 135px;
+  height: 25px;
+  left: 40px;
+  top: 20px;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.065em;
+  color: #ffffff;
+  border: 0.5px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  z-index: 2;
+}
+.dot1 {
+  position: absolute;
+  width: 404px;
+  height: 154px;
+  margin-top: 220px;
+  margin-left: -52px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  z-index: 1;
+}
+.photo {
+  display: flex;
+  text-align: right;
+}
+.rectangle {
+  position: absolute;
+  width: 178px;
+  height: 178px;
+  left: 1142px;
+  top: 430px;
+  z-index: 1;
+}
+.ellipse {
+  position: absolute;
+  width: 129px;
+  height: 129px;
+  left: 623px;
+  top: 40px;
+  z-index: 1;
+}
+.image8 {
+  position: absolute;
+  width: 754px;
+  height: 512px;
+  left: 686px;
+  top: 40px;
+  z-index: 2;
+}
+.ourclient {
+  position: absolute;
+  width: 1199.55px;
+  height: 124px;
+  left: 120px;
+  top: 764px;
+  margin-top: 40px;
+}
+.h2 {
+  display: grid;
+  width: 189px;
+  height: 49px;
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+.believe {
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #757575;
+}
+.google {
+  position: absolute;
+  width: 150.48px;
+  height: 49.38px;
+  left: 516px;
+  top: 36px;
+}
+.airbnb {
+  position: absolute;
+  width: 166.41px;
+  height: 52.14px;
+  left: 726px;
+  top: 34px;
+}
+.uber {
+  position: absolute;
+  width: 166.41px;
+  height: 27.73px;
+  left: 952px;
+  top: 46px;
+}
+.amazon {
+    position: absolute;
+    width: 141.55px;
+    height: 42.61px;
+    left: 1178px;
+    top: 51px;
+}
+.big_block{
+    position: absolute;
+    width: 1358px;
+    height: 867px;
+    left: 82px;
+    margin-top: 94px;
+    top: 982px;
+}
+.rectangle25{
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 82px;
+    top: 394px;
+    
+    background: #FFF5DB;
+    border-radius: 0px 0px 100px 0px;
+    transform: rotate(-180deg); 
+    z-index: 2;
+}
+.rectangle24{
+    position: absolute;
+    width: 1047px;
+    height: 619px;
+    left: 393px;
+    top: 234px;
+    
+    background: #F4F9FF;
+    border-radius: 150px 0px 0px 0px;
+    z-index: 2;
+}
+.ellipse87{
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 1177px;
+    top: 805px;
+    color:  #FF007A;
+    z-index: 1;
+}
+.dot2{
+    position: absolute;
+    width: 405px;
+    height: 154px;
+    left: 125px;
+    top: 738px;
+    
+}
+.help_business{
+    position: absolute;
+    width: 396px;
+    height: 180px;
+    left: 120px;
+    top: 454px;
+}
+.how_can{
+    position: absolute;
+    width: 358px;
+    height: 98px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+    z-index: 3;
+}
+.build{
+    position: absolute;
+    width: 396px;
+    height: 52px;
+    margin-top: 128px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+    z-index: 3;
+}
